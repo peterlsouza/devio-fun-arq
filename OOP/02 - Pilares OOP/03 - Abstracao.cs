@@ -3,6 +3,7 @@
     public abstract class Eletrodomestico //abstract class - proibi que alguem instancie.. ela só pode ser herdada!
     {   
         //ABSTRAÇÃO - oferecer um conjunto de estados e comportamentos que abstraem uma certa especialização
+        //CONCEITO DE SUPER CLASSE!! Classe que será base para as demais..
         //Criar conceitos genéricos que possam ser abstraidos por outras classes
         private readonly string _nome;
         private readonly int _voltagem;
